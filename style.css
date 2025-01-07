@@ -3,33 +3,28 @@
     border: 50px solid red;
     width: 200px;
     padding: 50px;
+    margin-bottom: 20px;
 }
 
-.box.green{
-    border:50px solid green;
-    margin-top: 20px;
+.green{
+    border-color:green;
+    /* display: none; */
 }
 
-.box.blue{
-    margin-top: 20px;
-    border:50px solid blue;
+.blue{
+    border-color:blue;
 }
 
 /* 보너스1: 다른 컬러 박스 */
 .bonus{
-    margin-top: 20px;
-    border: 50px solid #1abc9c;
+    border-color: #1abc9c;
+    /* visibility: hidden; */
 }
 
 /* 보너스2: 박스 숨기기 */
-    /* 공간 삭제O */
-.box.green.display-none{
-    display: none;
-}
-    /* 공간 삭제X */
-.box.bonus.hidden{
-    visibility: hidden;
-}
+    /* display: none; 공간 삭제O */
+    /* visibility: hidden; 공간 삭제X*/
+
 
 #description {
     font-size: 16px;
@@ -39,6 +34,15 @@
 
 
 /* 두 번째 챌린지 */
+.challenge2 {
+    background-color: #fff;
+    background-image:
+    linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
+    linear-gradient(#eee .1em, transparent .1em);
+    background-size: 100% 1.2em;
+    padding-left: 10%;
+}
+
 h1{
     color:#9b59b6;
 }
