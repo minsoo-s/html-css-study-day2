@@ -1,0 +1,68 @@
+/*첫 번째 챌린지*/
+.box{
+    border: 50px solid red;
+    width: 200px;
+    padding: 50px;
+}
+
+.box.green{
+    border:50px solid green;
+    margin-top: 20px;
+}
+
+.box.blue{
+    margin-top: 20px;
+    border:50px solid blue;
+}
+
+/* 보너스1: 다른 컬러 박스 */
+.bonus{
+    margin-top: 20px;
+    border: 50px solid #1abc9c;
+}
+
+/* 보너스2: 박스 숨기기 */
+    /* 공간 삭제O */
+.box.green.display-none{
+    display: none;
+}
+    /* 공간 삭제X */
+.box.bonus.hidden{
+    visibility: hidden;
+}
+
+#description {
+    font-size: 16px;
+    color: #555; 
+    margin: 5px 0; 
+  }
+
+
+/* 두 번째 챌린지 */
+h1{
+    color:#9b59b6;
+}
+
+p{
+    font-size: 16px; 
+    font-family: Verdana;
+    font-style: italic;
+}
+
+.sub-header{
+    color:#2980b9;
+}
+
+p::first-letter {
+    
+    font-size: 200%;
+    color: #2980b9;
+  }
+
+h1::before {
+    content: "Topic: ";
+  }
+
+h1:first-child {
+    text-align: center;
+  }
